@@ -140,9 +140,12 @@ function buildpackage::create() {
 
   args+=("${flags[@]}")
 
+  util::print::title $output
+  util::print::title ${args[@]}
   pack \
     buildpack package "${output}" \
-    "${args[@]}"
+      --config "${ROOT_DIR}/package.toml" \
+      --format file
 }
 
 main "${@:-}"
