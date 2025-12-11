@@ -229,6 +229,16 @@ function buildpackage::create() {
     args+=("--target linux/${arch}")
   fi
 
+  # Use the local architecture to support running locally and in CI, which will be linux/amd64 by default.
+  arch=$(util::tools::arch)
+
+  # If package.toml has no targets we must specify one on the command line, otherwise pack will complain.
+  # This is here for backward compatibility but eventually all package.toml files should have targets defined.
+  if cat package.toml | yj -tj | jq -r .targets | grep -q null; then
+    echo "package.toml has no targets so --target linux/${arch} will be passed to pack"
+    args+=("--target linux/${arch}")
+  fi
+
   pack \
     buildpack package "${output}" \
     ${args[@]}
