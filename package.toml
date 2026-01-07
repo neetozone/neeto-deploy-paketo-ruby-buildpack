@@ -12,7 +12,7 @@
   uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/image-labels:4.10.2"
 
 [[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/mri:0.19.0"
+  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/mri:0.19.1"
 
 [[dependencies]]
   uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/node-engine:7.10.0"
