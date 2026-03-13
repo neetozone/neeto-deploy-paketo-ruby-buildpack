@@ -4,7 +4,7 @@ api = "0.7"
   description = "A language family buildpack for building Ruby apps"
   homepage = "https://github.com/paketo-buildpacks/ruby"
   id = "neeto-deploy/ruby"
-  version = "0.47.14"
+  version = "0.47.19"
   keywords = ["ruby"]
   name = "Paketo Buildpack for Ruby"
 
@@ -18,13 +18,8 @@ api = "0.7"
   [[order]]
 
     [[order.group]]
-      id = "paketo-buildpacks/ca-certificates"
-      optional = true
-      version = "3.10.4"
-
-    [[order.group]]
       id = "neeto-deploy/mri"
-      version = "0.19.0"
+      version = "0.19.3"
 
     [[order.group]]
       id = "neeto-deploy/bundler"
@@ -42,47 +37,23 @@ api = "0.7"
     [[order.group]]
       id = "neeto-deploy/yarn"
       optional = true
-      version = "2.2.6"
+      version = "2.3.1"
 
     [[order.group]]
       id = "neeto-deploy/yarn-install"
       optional = true
-      version = "2.6.6"
+      version = "2.7.0"
 
     [[order.group]]
       id = "neeto-deploy/rails-assets"
       optional = true
       version = "0.10.25"
 
-    [[order.group]]
-      id = "paketo-buildpacks/puma"
-      version = "0.4.60"
-
-    [[order.group]]
-      id = "neeto-deploy/procfile"
-      optional = true
-      version = "5.11.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/environment-variables"
-      optional = true
-      version = "4.9.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/image-labels"
-      optional = true
-      version = "4.10.2"
-
   [[order]]
 
     [[order.group]]
-      id = "paketo-buildpacks/ca-certificates"
-      optional = true
-      version = "3.10.4"
-
-    [[order.group]]
       id = "neeto-deploy/mri"
-      version = "0.19.0"
+      version = "0.19.3"
 
     [[order.group]]
       id = "neeto-deploy/bundler"
@@ -100,186 +71,12 @@ api = "0.7"
     [[order.group]]
       id = "neeto-deploy/yarn"
       optional = true
-      version = "2.2.6"
+      version = "2.3.1"
 
     [[order.group]]
       id = "neeto-deploy/yarn-install"
       optional = true
-      version = "2.6.6"
-
-    [[order.group]]
-      id = "neeto-deploy/rails-assets"
-      optional = true
-      version = "0.10.25"
-
-    [[order.group]]
-      id = "paketo-buildpacks/thin"
-      version = "0.5.56"
-
-    [[order.group]]
-      id = "neeto-deploy/procfile"
-      optional = true
-      version = "5.11.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/environment-variables"
-      optional = true
-      version = "4.9.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/image-labels"
-      optional = true
-      version = "4.10.2"
-
-  [[order]]
-
-    [[order.group]]
-      id = "paketo-buildpacks/ca-certificates"
-      optional = true
-      version = "3.10.4"
-
-    [[order.group]]
-      id = "neeto-deploy/mri"
-      version = "0.19.0"
-
-    [[order.group]]
-      id = "neeto-deploy/bundler"
-      version = "0.8.48"
-
-    [[order.group]]
-      id = "neeto-deploy/bundle-install"
-      version = "0.8.18"
-
-    [[order.group]]
-      id = "neeto-deploy/node-engine"
-      optional = true
-      version = "7.10.0"
-
-    [[order.group]]
-      id = "neeto-deploy/yarn"
-      optional = true
-      version = "2.2.6"
-
-    [[order.group]]
-      id = "neeto-deploy/yarn-install"
-      optional = true
-      version = "2.6.6"
-
-    [[order.group]]
-      id = "neeto-deploy/rails-assets"
-      optional = true
-      version = "0.10.25"
-
-    [[order.group]]
-      id = "paketo-buildpacks/unicorn"
-      version = "0.4.59"
-
-    [[order.group]]
-      id = "neeto-deploy/procfile"
-      optional = true
-      version = "5.11.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/environment-variables"
-      optional = true
-      version = "4.9.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/image-labels"
-      optional = true
-      version = "4.10.2"
-
-  [[order]]
-
-    [[order.group]]
-      id = "paketo-buildpacks/ca-certificates"
-      optional = true
-      version = "3.10.4"
-
-    [[order.group]]
-      id = "neeto-deploy/mri"
-      version = "0.19.0"
-
-    [[order.group]]
-      id = "neeto-deploy/bundler"
-      version = "0.8.48"
-
-    [[order.group]]
-      id = "neeto-deploy/bundle-install"
-      version = "0.8.18"
-
-    [[order.group]]
-      id = "neeto-deploy/node-engine"
-      optional = true
-      version = "7.10.0"
-
-    [[order.group]]
-      id = "neeto-deploy/yarn"
-      optional = true
-      version = "2.2.6"
-
-    [[order.group]]
-      id = "neeto-deploy/yarn-install"
-      optional = true
-      version = "2.6.6"
-
-    [[order.group]]
-      id = "neeto-deploy/rails-assets"
-      optional = true
-      version = "0.10.25"
-
-    [[order.group]]
-      id = "paketo-buildpacks/passenger"
-      version = "0.14.14"
-
-    [[order.group]]
-      id = "neeto-deploy/procfile"
-      optional = true
-      version = "5.11.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/environment-variables"
-      optional = true
-      version = "4.9.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/image-labels"
-      optional = true
-      version = "4.10.2"
-
-  [[order]]
-
-    [[order.group]]
-      id = "paketo-buildpacks/ca-certificates"
-      optional = true
-      version = "3.10.4"
-
-    [[order.group]]
-      id = "neeto-deploy/mri"
-      version = "0.19.0"
-
-    [[order.group]]
-      id = "neeto-deploy/bundler"
-      version = "0.8.48"
-
-    [[order.group]]
-      id = "neeto-deploy/bundle-install"
-      version = "0.8.18"
-
-    [[order.group]]
-      id = "neeto-deploy/node-engine"
-      optional = true
-      version = "7.10.0"
-
-    [[order.group]]
-      id = "neeto-deploy/yarn"
-      optional = true
-      version = "2.2.6"
-
-    [[order.group]]
-      id = "neeto-deploy/yarn-install"
-      optional = true
-      version = "2.6.6"
+      version = "2.7.0"
 
     [[order.group]]
       id = "neeto-deploy/rails-assets"
@@ -290,31 +87,11 @@ api = "0.7"
       id = "neeto-deploy/rackup"
       version = "0.4.52"
 
-    [[order.group]]
-      id = "neeto-deploy/procfile"
-      optional = true
-      version = "5.11.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/environment-variables"
-      optional = true
-      version = "4.9.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/image-labels"
-      optional = true
-      version = "4.10.2"
-
   [[order]]
 
     [[order.group]]
-      id = "paketo-buildpacks/ca-certificates"
-      optional = true
-      version = "3.10.4"
-
-    [[order.group]]
       id = "neeto-deploy/mri"
-      version = "0.19.0"
+      version = "0.19.3"
 
     [[order.group]]
       id = "neeto-deploy/bundler"
@@ -329,18 +106,3 @@ api = "0.7"
     [[order.group]]
       id = "paketo-buildpacks/rake"
       version = "0.4.61"
-
-    [[order.group]]
-      id = "neeto-deploy/procfile"
-      optional = true
-      version = "5.11.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/environment-variables"
-      optional = true
-      version = "4.9.3"
-
-    [[order.group]]
-      id = "paketo-buildpacks/image-labels"
-      optional = true
-      version = "4.10.2"

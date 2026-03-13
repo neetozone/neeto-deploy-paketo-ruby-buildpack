@@ -9,22 +9,10 @@
   uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/bundler:0.8.48"
 
 [[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/image-labels:4.10.2"
-
-[[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/mri:0.19.0"
+  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/mri:0.19.3"
 
 [[dependencies]]
   uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/node-engine:7.10.0"
-
-[[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/passenger:0.14.14"
-
-[[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/buildpacks/procfile:5.11.3"
-
-[[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/puma:0.4.60"
 
 [[dependencies]]
   uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/rackup:0.4.52"
@@ -36,22 +24,10 @@
   uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/rake:0.4.61"
 
 [[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/thin:0.5.56"
+  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/yarn-install:2.7.0"
 
 [[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/unicorn:0.4.59"
-
-[[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/yarn-install:2.6.6"
-
-[[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/yarn:2.2.6"
-
-[[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/environment-variables:4.9.3"
-
-[[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/ca-certificates:3.10.4"
+  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/yarn:2.3.1"
 
 [[targets]]
   os = "linux"
