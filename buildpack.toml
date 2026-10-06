@@ -4,7 +4,7 @@ api = "0.7"
   description = "A language family buildpack for building Ruby apps"
   homepage = "https://github.com/paketo-buildpacks/ruby"
   id = "neeto-deploy/ruby"
-  version = "0.47.20"
+  version = "0.47.26"
   keywords = ["ruby"]
   name = "Paketo Buildpack for Ruby"
 
@@ -19,11 +19,11 @@ api = "0.7"
 
     [[order.group]]
       id = "neeto-deploy/mri"
-      version = "0.19.3"
+      version = "0.19.5"
 
     [[order.group]]
       id = "neeto-deploy/bundler"
-      version = "0.8.48"
+      version = "0.8.49"
 
     [[order.group]]
       id = "neeto-deploy/bundle-install"
@@ -47,17 +47,17 @@ api = "0.7"
     [[order.group]]
       id = "neeto-deploy/rails-assets"
       optional = true
-      version = "0.10.25"
+      version = "0.10.28"
 
   [[order]]
 
     [[order.group]]
       id = "neeto-deploy/mri"
-      version = "0.19.3"
+      version = "0.19.5"
 
     [[order.group]]
       id = "neeto-deploy/bundler"
-      version = "0.8.48"
+      version = "0.8.49"
 
     [[order.group]]
       id = "neeto-deploy/bundle-install"
@@ -81,7 +81,7 @@ api = "0.7"
     [[order.group]]
       id = "neeto-deploy/rails-assets"
       optional = true
-      version = "0.10.25"
+      version = "0.10.28"
 
     [[order.group]]
       id = "neeto-deploy/rackup"
@@ -91,12 +91,12 @@ api = "0.7"
 
     [[order.group]]
       id = "neeto-deploy/mri"
-      version = "0.19.3"
+      version = "0.19.5"
 
     [[order.group]]
       id = "neeto-deploy/bundler"
       optional = true
-      version = "0.8.48"
+      version = "0.8.49"
 
     [[order.group]]
       id = "neeto-deploy/bundle-install"
