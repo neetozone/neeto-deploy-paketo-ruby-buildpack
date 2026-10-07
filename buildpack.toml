@@ -4,7 +4,7 @@ api = "0.7"
   description = "A language family buildpack for building Ruby apps"
   homepage = "https://github.com/paketo-buildpacks/ruby"
   id = "neeto-deploy/ruby"
-  version = "0.47.26"
+  version = "0.47.27"
   keywords = ["ruby"]
   name = "Paketo Buildpack for Ruby"
 
@@ -27,7 +27,7 @@ api = "0.7"
 
     [[order.group]]
       id = "neeto-deploy/bundle-install"
-      version = "0.9.1"
+      version = "0.9.2"
 
     [[order.group]]
       id = "neeto-deploy/node-engine"
@@ -61,7 +61,7 @@ api = "0.7"
 
     [[order.group]]
       id = "neeto-deploy/bundle-install"
-      version = "0.9.1"
+      version = "0.9.2"
 
     [[order.group]]
       id = "neeto-deploy/node-engine"
@@ -101,7 +101,7 @@ api = "0.7"
     [[order.group]]
       id = "neeto-deploy/bundle-install"
       optional = true
-      version = "0.9.1"
+      version = "0.9.2"
 
     [[order.group]]
       id = "paketo-buildpacks/rake"
