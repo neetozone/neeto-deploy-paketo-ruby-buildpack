@@ -3,7 +3,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/bundle-install:0.9.1"
+  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/bundle-install:0.9.3"
 
 [[dependencies]]
   uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/bundler:0.8.49"
@@ -24,7 +24,7 @@
   uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/rake:0.4.61"
 
 [[dependencies]]
-  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/yarn-install:2.7.0"
+  uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/yarn-install:2.7.1"
 
 [[dependencies]]
   uri = "docker://348674388966.dkr.ecr.us-east-1.amazonaws.com/neeto-deploy/paketo/buildpack/yarn:2.3.1"
